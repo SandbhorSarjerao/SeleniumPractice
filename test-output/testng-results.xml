@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19230" started-at="2019-05-18T06:25:14Z" finished-at="2019-05-18T06:25:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19230" started-at="2019-05-18T06:25:14Z" finished-at="2019-05-18T06:25:33Z">
+      <class name="testNG.YahooSearchTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testNG.YahooSearchTest@4ec6a292]" name="launchBrowser" is-config="true" duration-ms="15981" started-at="2019-05-18T11:55:14Z" finished-at="2019-05-18T11:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="searchTest_howStuffWorks()[pri:0, instance:testNG.YahooSearchTest@4ec6a292]" name="searchTest_howStuffWorks" duration-ms="731" started-at="2019-05-18T11:55:30Z" finished-at="2019-05-18T11:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest_howStuffWorks -->
+        <test-method status="PASS" signature="searchTest_whatToSearch()[pri:0, instance:testNG.YahooSearchTest@4ec6a292]" name="searchTest_whatToSearch" duration-ms="660" started-at="2019-05-18T11:55:31Z" finished-at="2019-05-18T11:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest_whatToSearch -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:testNG.YahooSearchTest@4ec6a292]" name="verifyTitle" duration-ms="320" started-at="2019-05-18T11:55:31Z" finished-at="2019-05-18T11:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="clearText_CloseBrowser()[pri:0, instance:testNG.YahooSearchTest@4ec6a292]" name="clearText_CloseBrowser" is-config="true" duration-ms="1518" started-at="2019-05-18T11:55:32Z" finished-at="2019-05-18T11:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearText_CloseBrowser -->
+      </class> <!-- testNG.YahooSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
