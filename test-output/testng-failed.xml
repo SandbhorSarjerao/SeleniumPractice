@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium.WebDriverManager_LaunchBrowserWithoutExe">
+      <class name="exceptionsHandling.StaleElementException_Demo">
         <methods>
-          <include name="setup"/>
-          <include name="test"/>
+          <include name="staleElementReferenceExceptionDemoFreeCRM"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Selenium.WebDriverManager_LaunchBrowserWithoutExe -->
+      </class> <!-- exceptionsHandling.StaleElementException_Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

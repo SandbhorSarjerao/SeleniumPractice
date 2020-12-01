@@ -104,7 +104,5 @@ public class BrowserSetup
 	public WebDriver getDriver()
 	{
 		return this.driver;
-	}
-	
-	
+	}	
 }

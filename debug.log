@@ -1,0 +1,5 @@
+[1110/155720.084:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1110/155720.085:ERROR:exception_snapshot_win.cc(99)] thread ID 6264 not found in process
+[1111/114326.695:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
+[1111/115431.587:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
+[1111/115537.466:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)

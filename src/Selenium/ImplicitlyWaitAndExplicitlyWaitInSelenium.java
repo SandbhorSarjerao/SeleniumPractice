@@ -34,15 +34,22 @@ public class ImplicitlyWaitAndExplicitlyWaitInSelenium
 	
 	}
 	
-	public static void sendKeys(WebDriver driver , WebElement element, int timeout, String value)
+	public static void sendKeys(WebDriver driver , WebElement locator, int timeout, String value)
 	{
-		new WebDriverWait(driver , timeout).until(ExpectedConditions.visibilityOf(element));
-		element.sendKeys(value);
+		 WebDriverWait wait = new WebDriverWait(driver, timeout);
+
+		// WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id(>someid>)));
+		
+		// WebDriverWait wait;
+		// wait.until(ExpectedConditions.elementToBeClickable(locator));
+		
+		// new WebDriverWait(driver, timeout).until(ExpectedConditions.elementToBeClickable(locator));
+		locator.sendKeys(value);
 	}
 
 	public static void clickOn(WebDriver driver , WebElement element, int timeout)
 	{
-		new WebDriverWait(driver , timeout).until(ExpectedConditions.elementToBeClickable(element));
-		element.click();
+		//new WebDriverWait(driver , timeout).until(ExpectedConditions.elementToBeClickable(element));
+		//element.click();
 	}
 }
